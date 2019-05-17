@@ -1,7 +1,7 @@
-# moos-interface
+# Moos-interface
 This is the python interface with Moos for the AGDA Project
 
-# INSTALLATION INSTRUCTIONS FOR MAC
+# INSTALLATION INSTRUCTIONS
 
 1. Download MOOS-IVP
 ```
