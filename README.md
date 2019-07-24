@@ -27,7 +27,18 @@ This is the python interface with Moos for the AGDA Project
    # for Moos-ivp-midca
    export PATH="/Users/user-name/moos-ivp/moos-ivp-midca/bin:$PATH"
 ```
-5. Navigate to the moos-ivp-midca directory, you will find a README file follow the instruction to install moos-ivp-midca
+5. Navigate to the moos-ivp-midca directory, you will find a README file, follow the instruction to install moos-ivp-midca or follow the bellow instructions.
+```
+   $ cd moos-ivp/moos-ivp-midca
+   $ mkdir -p build
+   $ mkdir -p lib
+   $ cd build
+   $ cmake ../
+   $ make
+   $ cd ..
+```
+
+
 6. Navigate to the moos-ivp/ivp/src directory, delete the folder named "uFldHazardSensor" and follow the instructions below
 ```
     $ cd moos-ivp/ivp/src
